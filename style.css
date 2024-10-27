@@ -1,0 +1,70 @@
+body {
+    font-family: 'Helvetica Neue', sans-serif;
+    background-image: url('/static/abstract-brain-background.png');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    color: #444;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+input[type="number"], input[type="radio"] {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #5cb85c;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #4cae4c;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    color: #777;
+    font-size: 12px;
+}
